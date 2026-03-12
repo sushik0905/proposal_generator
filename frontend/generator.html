@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Generate Proposal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="generator-body">
+  <div class="bg-orb orb1"></div>
+  <div class="bg-orb orb2"></div>
+  <div class="bg-orb orb3"></div>
+
+  <header class="topbar">
+    <div class="logo">Proposal<span>Craft</span></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="generator.html" class="active-link">Generate</a>
+    </nav>
+  </header>
+
+  <main class="form-page">
+    <div class="form-left glass-card">
+      <p class="tag">Proposal Input</p>
+      <h1>Build your next winning proposal</h1>
+      <p>
+        Enter your project information below. The system will generate a
+        structured business proposal including summary, technical approach,
+        timeline, estimated cost, and risks.
+      </p>
+
+      <ul class="fancy-points">
+        <li>Project-focused structured output</li>
+        <li>Clean and premium user experience</li>
+        <li>Fast workflow for client-ready proposals</li>
+      </ul>
+    </div>
+
+    <div class="form-right glass-card">
+      <form id="proposalForm">
+        <div class="input-group">
+          <label>Project Title</label>
+          <input type="text" id="project_title" placeholder="Ex: Smart ERP System" required />
+        </div>
+
+        <div class="input-group">
+          <label>Industry</label>
+          <input type="text" id="industry" placeholder="Ex: Healthcare, Retail, Education" required />
+        </div>
+
+        <div class="two-col">
+          <div class="input-group">
+            <label>Duration (Months)</label>
+            <input type="number" id="duration_months" placeholder="Ex: 6" required />
+          </div>
+
+          <div class="input-group">
+            <label>Expected Users</label>
+            <input type="number" id="expected_users" placeholder="Ex: 5000" required />
+          </div>
+        </div>
+
+        <div class="input-group">
+          <label>Tech Stack</label>
+          <input
+            type="text"
+            id="tech_stack"
+            placeholder="Ex: FastAPI, React, PostgreSQL, Docker"
+            required
+          />
+          <small>Separate technologies with commas</small>
+        </div>
+
+        <button type="submit" class="btn btn-primary full-btn">Generate Proposal</button>
+      </form>
+
+      <div id="loadingBox" class="loading-box hidden">
+        <div class="loader"></div>
+        <p>Generating your proposal...</p>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

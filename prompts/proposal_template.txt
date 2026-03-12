@@ -1,0 +1,37 @@
+You are a senior consulting solution architect.
+
+Create a detailed, professional AI project proposal using the information below.
+
+==============================
+PROJECT DETAILS
+==============================
+Project Title: {project_title}
+Industry: {industry}
+Project Duration: {duration_months} months
+Expected Users: {expected_users}
+Preferred Tech Stack: {tech_stack}
+
+==============================
+RESPONSE FORMAT
+==============================
+
+1. Executive Summary
+Provide a clear overview of the project goals, business value, and expected outcomes.
+
+2. Technical Approach
+Explain system architecture, technologies, integrations, and development methodology.
+
+3. Implementation Timeline
+Break the project into phases with estimated milestones.
+
+4. Risk Assessment
+Identify technical risks, business risks, and mitigation strategies.
+
+==============================
+IMPORTANT INSTRUCTIONS
+==============================
+- Write in a professional consulting tone.
+- Keep sections clearly separated.
+- Avoid vague statements.
+- Provide realistic technical details.
+- Structure the response with headings and bullet points where helpful.

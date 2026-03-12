@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proposal Result</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="result-body">
+  <div class="bg-orb orb1"></div>
+  <div class="bg-orb orb2"></div>
+  <div class="bg-orb orb3"></div>
+
+  <header class="topbar">
+    <div class="logo">Proposal<span>Craft</span></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="generator.html">Generate</a>
+    </nav>
+  </header>
+
+  <main class="result-page">
+    <div class="result-header glass-card">
+      <p class="tag">Generated Output</p>
+      <h1>Your proposal is ready</h1>
+      <p>Structured, polished, and beautifully presented.</p>
+      <a href="generator.html" class="btn btn-secondary">Create Another</a>
+      <button id="downloadPdfBtn" class="btn btn-primary">Download PDF</button>
+    </div>
+
+    <section class="result-grid">
+      <div class="result-card glass-card">
+        <h2>Executive Summary</h2>
+        <p id="executive_summary">Loading...</p>
+      </div>
+
+      <div class="result-card glass-card">
+        <h2>Technical Approach</h2>
+        <p id="technical_approach">Loading...</p>
+      </div>
+
+      <div class="result-card glass-card">
+        <h2>Timeline</h2>
+        <p id="timeline">Loading...</p>
+      </div>
+
+      <div class="result-card glass-card">
+        <h2>Risk Assessment</h2>
+        <p id="risk_assessment">Loading...</p>
+      </div>
+
+      <div class="result-card glass-card full-width">
+        <h2>Estimated Cost</h2>
+        <div id="estimated_cost" class="cost-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
